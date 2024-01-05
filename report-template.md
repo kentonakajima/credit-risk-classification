@@ -5,9 +5,29 @@
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
+Logistic Regression model in this activity predicts healthy and high-risk loans using Original Data technique and Resampled Data techinque to see balanced and imbalanced datasets.
+
 * Explain what financial information the data was on, and what you needed to predict.
+Loans status predictions; healthy vs. high-risk 
+
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+Original Data:
+Status - Value_counts
+0 - 75036
+1 - 2500
+
+Oversampled:
+Status - Value_counts
+0 - 56271
+1 - 56271
+
+
+
 * Describe the stages of the machine learning process you went through as part of this analysis.
+1. Read data from csv file
+2. Separate data by certain label
+3. 
+
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
 ## Results
